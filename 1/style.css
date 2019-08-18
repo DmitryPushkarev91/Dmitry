@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+p {
+    color: #000;
+}
+span {
+    color: #ffc222;
+}
+.highlight {
+    color: #ff3cc2;
+}
+
+.ampers{
+    list-style: url(paragrahp.png);
+    list-style-position: outside;
+}
+
+.first-style {
+    font-family: 'Gill Sans', monospace;
+    font-size: 19px;
+}
+.second-style {
+    font-family: Cambria, fantasy;
+    font-size: 18px;
+}
+.third-style {
+    font-family: 'Franklin Gothic Medium', cursive;
+    font-size: 17px;
+}
