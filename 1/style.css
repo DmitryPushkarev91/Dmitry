@@ -2,30 +2,29 @@ body {
     font-family: Arial, sans-serif;
     font-size: 20px;
 }
-p {
-    color: #000;
+.ordinary{
+    font-family:  "Roboto", sans-serif;
+    font-size: 20px;
+    color: #ff3d33;
 }
 span {
     color: #ffc222;
+    font-size: 20px;
 }
 .highlight {
     color: #ff3cc2;
-}
-
-.ampers{
-    list-style: url(paragrahp.png);
-    list-style-position: outside;
-}
+    font-size: 40px;
+}  
 
 .first-style {
+    color: #977236; 
     font-family: 'Gill Sans', monospace;
     font-size: 19px;
+    
 }
-.second-style {
-    font-family: Cambria, fantasy;
-    font-size: 18px;
-}
+
 .third-style {
     font-family: 'Franklin Gothic Medium', cursive;
     font-size: 17px;
+    color: #c018346b;
 }

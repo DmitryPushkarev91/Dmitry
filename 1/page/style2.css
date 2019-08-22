@@ -1,0 +1,39 @@
+
+.div-style {
+    margin-left: 10px;
+}
+
+.range-text {
+    margin: 40px;   
+    padding-top:  0px;
+    padding-bottom: 0px;
+    
+}
+
+li {
+    list-style-type: none;
+}
+ul {
+    margin-left: 10px;
+    padding-left: 10px;
+}
+.picture-python {
+    margin: 0 auto;    
+    max-height: 300px;
+    max-width: 360px;
+}
+div {
+    max-width: 720px;
+    max-height: 600px;
+} 
+img {
+    width: 250px;
+    height: 150px;
+}
+footer {
+    background-color: #ff3333;
+}
+.footer-span {
+    padding: 20px 0px 5px;
+
+}

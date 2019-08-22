@@ -1,0 +1,23 @@
+.IP1 {
+   font-style: italic;
+}
+
+.IP2 {
+    font-style: italic;
+    color: purple;
+}
+.paragraph {
+    list-style-type: none; /* Убираем маркеры у списка */
+   
+}
+.paragraph:before {
+    position: absolute;
+    content: "§"; /* Добавляем в качестве маркера символ */
+    margin-left: -20px;
+   }
+
+   .paragraph {
+    font-family: Cambria, fantasy;
+    font-size: 18px;
+    color: #1f3a6dc9;
+}
