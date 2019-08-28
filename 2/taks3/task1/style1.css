@@ -1,0 +1,21 @@
+
+.table1{
+    padding: 0.4em;
+}
+.first-line {
+
+    height: 4em;
+}
+.first-line td{    
+    background-color: #ffa335; 
+}
+
+.second-line td{
+    background-color: #daec00;
+}
+.third-line td  {
+   background-color: #4a89d0;   
+}
+.fourth-line td {
+    background-color: #e3e3e3;   
+}

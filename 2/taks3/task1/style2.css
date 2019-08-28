@@ -1,0 +1,85 @@
+.wrapper {
+    width:  100%;
+    margin: 0 auto;
+}
+.first-line {
+    width: 99%;
+    height: 3em;
+    margin: 0 auto;
+    margin-bottom: 2%;  
+}
+.first-line .first-block {
+    width: 49.5%;
+    height: 100%;
+    float: left; 
+    background-color: #ffa335;
+}
+.first-line .second-block {
+    width: 49.5%;
+    height: 100%;
+    margin-left: 50.5%;    
+    background-color: #ffa335;
+}
+.second-line {
+    width: 99%;
+    height: 12em;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    background-color: #daec00;
+}
+.third-line {
+    width: 99%;
+    height: 8em;
+    margin: 0 auto;
+    margin-bottom: 2%;
+}
+.third-line .first-block {
+    width: 32%;
+    height: 100%;
+    float: left; 
+    background-color:  #4a89d0;
+}
+.third-line .second-block {
+    width: 33%;
+    float: left;
+    height: 100%;
+    margin-left: 1%;   
+    background-color:  #4a89d0;
+}
+.third-line .third-block {
+    width: 33%;
+    height: 100%;
+    margin-left: 67%;    
+    background-color:  #4a89d0;
+}
+.fourth-line {
+    width: 99%;
+    height: 6em;
+    margin: 0 auto; 
+}
+.fourth-line .first-block {
+    width: 24.25%;
+    height: 100%;
+    float: left; 
+    background-color:   #e3e3e3;
+}
+.fourth-line .second-block {
+    width: 24.25%;
+    float: left;
+    height: 100%;
+    margin-left: 1%;   
+    background-color:   #e3e3e3;
+}
+.fourth-line .third-block {
+    width: 24.25%;
+    height: 100%;
+    float: left;
+    margin-left: 1%;   
+    background-color:   #e3e3e3;
+}
+.fourth-line .fourth-block {
+    width: 24.25%;
+    height: 100%;
+    margin-left: 75.75%;    
+    background-color:   #e3e3e3;
+}

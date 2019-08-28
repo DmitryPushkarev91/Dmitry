@@ -1,0 +1,38 @@
+.wrapper {
+    width: 600px;
+    height: 600px;
+    border: 4px solid black;
+    margin: 0 auto;
+}
+.first-block,
+.second-block,
+.third-block {
+    position: relative;
+}
+.first-block {
+    width: 400px;
+    height: 400px;
+    background-color:  #ff0000 ;
+    float: left;
+}
+
+.second-block {    
+        width: 400px; 
+        height: 400px; /* height:width ratio = 9/16 = .5625  */
+        background: #00ff00;
+        margin: 0 auto;
+        margin-top: 15%;
+}
+
+.third-block {    
+    width: 400px; 
+    height: 400px; /* height:width ratio = 9/16 = .5625  */
+    background: #0000ff;
+    margin: 0 auto;
+    margin-top: -48.35%;
+    margin-right: 0;
+}
+
+.first-block  { z-index: 1; }
+.second-block { z-index: 3; }
+.third-block { z-index: 2; }
