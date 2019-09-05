@@ -1,0 +1,133 @@
+.html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item1 {    
+    width: 40.5%;
+    height: 10%;
+    background-color: red;  
+    order: 1;
+}
+.item2 {
+    width: 58.5%;
+    height: 10%;
+    background-color: orange;  
+    order: 2; 
+}
+
+.item3 {
+    background-color: green; 
+    width: 100%;
+    height: 50%;
+    order: 3;
+}
+.item4 {
+    background-color: rgb(240, 144, 149); 
+    width: 32%;
+    height: 30%;
+    order: 4; 
+}
+
+.item5 {
+    background-color: blue;
+    width: 32%;
+    height: 30%;
+    order: 5;
+}
+.item6 {
+    background-color: purple; 
+    width: 32%;
+    height: 30%;
+    order: 6; 
+}
+
+@media screen and (width: 375px){
+
+    .item1{
+        width: 100%;
+        height: 70%;
+        background-color: red;  
+        order: 3;
+    }
+    .item2{
+        display: none;
+    }
+    .item3{
+        background-color: green; 
+        width: 100%;
+        height: 10%;
+        order: 1;
+    }
+    .item4{
+        display: none;
+    }
+    .item5{
+        display: none;  
+    }
+    .item6{
+        background-color: purple; 
+        width: 100%;
+        height: 10%;
+        order: 2; 
+        margin-top: 2%;
+    }
+}
+@media screen and 
+(min-width: 376px) and
+(max-width:768px)
+{
+
+    .item1{
+        margin-top: 0px;
+        width: 100%;
+        height: 45%;
+        background-color: red;  
+        order: 3;
+    }
+    .item2{
+        margin: 0px;
+        width: 40.5%;
+        height: 10%;
+        background-color: orange;  
+        order: 1; 
+    }
+    .item3{
+        background-color: green; 
+        width: 49.5%;
+        height: 30%;
+        order: 4;
+     
+    }
+    .item4{
+        display: none;
+    }
+    .item5{
+        background-color: blue;
+        width: 49.5%;
+        height: 30%;
+        order: 5;
+       
+    }
+    .item6{
+        background-color: purple; 
+        width: 58.5%;
+        height: 10%;
+        order: 2; 
+    }
+}
