@@ -1,0 +1,42 @@
+body {
+    background-color: #c3c3c3;
+}
+.header {
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+#header {
+    background-color: #333c22;
+}
+.text-1, .text-2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.text-1 {
+    color: rgb(18, 21, 218);
+    margin-right: 10%;
+}
+.text-2 {
+    color: white;
+    text-align: center;
+}
+.card {
+    margin-bottom: 10px;
+}
+
+.comments {
+    border: 1px solid black;
+}
+
+.feedback {
+    width: 80%;
+    margin-left: 5%;
+    border: 1px solid black;
+    padding: 2%;
+    margin-bottom: 10px;
+}
+.footer {
+    background-color: #333c22;
+    color: white;
+    padding-top: 10px;
+}
