@@ -1,0 +1,106 @@
+@bgc__item1: red;
+@bgc__item2: rgb(236, 163, 27);
+@bgc__item3: green;
+@bgc__item4: rgb(240, 144, 149);
+@bgc__item5: blue;
+@bgc__item6: purple;
+@free__margin: 2vh 0vh 4vh;
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+.itemSize(@width, @heith, @order) {
+    width: @width;
+    height: @heith;
+    order: @order;    
+}
+
+.container {
+    &:extend(.wrapper);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100vw;
+}
+.item1 {
+    .itemSize(40.5%,10vh,1);
+    background-color: @bgc__item1;
+}
+.item2 {
+    .itemSize(58.5%,10vh,2);
+    background-color: @bgc__item2;
+
+}
+.item3 {
+    .itemSize(100%,50vh,3);
+    background-color: @bgc__item3;
+    margin: @free__margin;
+
+}
+.item4 {
+    .itemSize(32%,30vh,4);
+    background-color: @bgc__item4;   
+}
+.item5 {
+    .itemSize(32%,30vh,5);
+    background-color: @bgc__item5;   
+}
+.item6 {
+    .itemSize(32%,30vh,6);
+    background-color: @bgc__item6;   
+}
+
+@media screen and (max-width: 375px) {
+    .item1 {
+        .itemSize(100%,70vh,3);
+        background-color: @bgc__item1;   
+    }
+    .item2 {
+        display: none;
+    }
+    .item3 {
+        .itemSize(100%,10vh,1);
+        background-color: @bgc__item3;  
+        margin: 0 auto; 
+    }
+    .item4 {
+        display: none;  
+    }
+    .item5 {
+        display: none; 
+    }
+    .item6 {
+        .itemSize(100%,10vh,2);
+        background-color: @bgc__item6;  
+        margin: @free__margin;
+    }
+}
+
+@media screen 
+and (min-width: 376px)
+and (max-width: 768px) {
+    .item1 {
+        .itemSize(100%,45vh,3);
+        background-color: @bgc__item1; 
+        margin: @free__margin;  
+    }
+    .item2 {
+       .itemSize(40.5%, 10vh, 1);
+    }
+    .item3 {
+        .itemSize(49.5%,30vh,4);
+        background-color: @bgc__item3;  
+        margin: 0;
+    }
+    .item4 {
+        display: none;  
+    }
+    .item5 {
+        .itemSize(49.5%,30vh,5);
+    }
+    .item6 {
+        .itemSize(58.5%,10vh,2);
+        background-color: @bgc__item6;  
+    }
+}
